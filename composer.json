@@ -1,0 +1,9 @@
+{
+    "name": "pails/test_plugin",
+	"autoload": {
+		"files": ["index.php"]
+	},
+	"require": {
+		"pails/pails": "dev-master"
+	}
+}
