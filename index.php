@@ -1,4 +1,9 @@
 <?php
-function test_plugin_config($app) {
-	Pails\Application::log("Loading my plugin");
+namespace Pails\Plugins;
+
+class TestPlugin
+{
+	static function initialize($app = null) {
+		\Pails\Application::log("Loading my plugin");
+	}
 }
